@@ -5,5 +5,84 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/html5reset.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <title>539 Final Project</title>
+        <title>Home</title>
+        <link rel="icon" type="image/x-icon" href="../images/cakepng.png">
       </head>
+      <body>
+        <div class="skip"><a href="#main">Skip to Main Content</a></div>
+        <header class="mobile">
+          <nav>
+              <ul class="menuu">
+                  <li><a href = "index.html" class="active">Home</a></li>
+                  <li><a href = "sweet.html">Sweet</a></li>
+                  <li><a href = "savory.html">Savory</a></li>
+              </ul>
+          </nav>
+      </header>
+        <header>
+          <section class="p-menu1">
+            <nav id="navbar" class="navigation" role="navigation">
+              <input id="toggle1" type="checkbox" />
+              <label class="hamburger1" for="toggle1">
+                <div class="top"></div>
+                <div class="meat"></div>
+                <div class="bottom"></div>
+              </label>
+              <nav class="menu1">
+                <a class="link1" href="index.html">Home</a>
+                <a class="link1" href="sweet.html">Sweet</a>
+                <a class="link1" href="savory.html">Savory</a>
+              </nav>
+          </nav>
+          </section>
+        </header>
+        <main class="container" id = "main">
+          <div class = overview>
+            <h1>Sweet and Savory</h1>
+            <img src="images/cakepng.png" alt="Chocolate cake with pink buttercream frosting and sprinkles." id = "logo">
+            <p>Welcome to your home for dairy-free recipes! Check out our selection of recipes for meals, desserts, and beverages.<br>
+                <p>Recipes including dairy products such as milk, cheese, or butter can be made using a dairy-free product of your choice, unless otherwise specified.<br>
+            <p>Browse recipes by sweet or savory, or search by recipe title!</p>
+              <input id="searchbar"
+               onkeyup="search_foodname()"
+               type="text" name="search"
+               placeholder="Search recipes...">
+               <ul id='list'>
+                <li class="foodname"><a href="apple_crisp.html">Apple Crisp</a></li>
+                <li class="foodname"><a href="banana_nut_cookies.html">Banana Nut Cookies</a></li>
+                <li class="foodname"><a href="banana_oatmeal_raisin_cookies.html">Banana Oatmeal Raisin Cookies</a></li>
+                <li class="foodname"><a href="banana_vanilla_smoothie.html">Banana Vanilla Smoothie</a></li>
+                <li class="foodname"><a href="candy_corn_cookies.html">Candy Corn Cookies</a></li>
+                <li class="foodname"><a href="chocolate_cake_with_buttercream_frosting.html">Chocolate Cake with Buttercream Frosting</a></li>
+                <li class="foodname"><a href="chocolate_chip_cookies.html">Chocolate Chip Cookies</a></li>
+                <li class="foodname"><a href="chocolate_peanut_butter_banana_smoothie.html">Chocolate Peanut Butter Banana Smoothie</a></li>
+                <li class="foodname"><a href="cinnamon_sugar_butter_cookies.html">Cinnamon Sugar Butter Cookies</a></li>
+                <li class="foodname"><a href="frosted_almond_cookies.html">Frosted Almond Cookies</a></li>
+                <li class="foodname"><a href="fudge_brownies.html">Fudge Brownies</a></li>
+                <li class="foodname"><a href="gingersnaps.html">Gingersnaps</a></li>
+                <li class="foodname"><a href="golabki.html">Gołąbki</a></li>
+                <li class="foodname"><a href="honey_chocolate_chip_cookies.html">Honey Chocolate Chip Cookies</a></li>
+                <li class="foodname"><a href="hummus.html">Hummus</a></li>
+                <li class="foodname"><a href="jelly_cookies.html">Jelly Cookies</a></li>
+                <li class="foodname"><a href="marshmallow_chocolate_cookies.html">Marshmallow Chocolate Cookies</a></li>
+                <li class="foodname"><a href="mint_chocolate_cookies.html">Mint Chocolate Cookies</a></li>
+                <li class="foodname"><a href="nalesniki.html">Naleśniki</a></li>
+                <li class="foodname"><a href="pancakes.html">Pancakes</a></li>
+                <li class="foodname"><a href="pb_cookies.html">Peanut Butter Cookies (3-Ingredient)</a></li>
+                <li class="foodname"><a href="peanut_butter_cookies.html">Peanut Butter Cookies</a></li>
+                <li class="foodname"><a href="pretzel_chocolate_chip_cookies.html">Pretzel Chocolate Chip Cookies</a></li>
+                <li class="foodname"><a href="prosciutto_gnocchi.html">Prosciutto Gnocchi</a></li>
+                <li class="foodname"><a href="raspberry_chocolate_chip_cookies.html">Raspberry Chocolate Chip Cookies</a></li>
+                <li class="foodname"><a href="raspberry_mint_iced_tea.html">Raspberry Mint Iced Tea</a></li>
+                <li class="foodname"><a href="sprinkle_cookies.html">Sprinkle Cookies</a></li>
+                <li class="foodname"><a href="vanilla_macarons.html">Vanilla Macarons</a></li>
+            </ul>
+          </div>
+        </main>
+        <footer>
+          <p>Created by Emily Sulkey, 2024<br>
+          <p>Thank you for visiting!</p>
+        </footer>
+        <script src="js/search.js"></script>
+      </body>
+    </html>
