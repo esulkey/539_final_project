@@ -10,7 +10,7 @@
       opacity: 0;
   }
   to {
-      width: 200px;
+      width: 275px;
       opacity: 1;
   }
 }
@@ -54,6 +54,7 @@ body {
   nav li{
     display:inline;
     padding-right:20px;
+    font-size: 18px;
   
   }
   
@@ -262,6 +263,7 @@ list-style-type: decimal;
     width: 50%;
     box-sizing: border-box;
     display: block;
+    font-size: 14px;
 }
  
 #list {
@@ -271,7 +273,7 @@ list-style-type: decimal;
 }
  
 .foodname {
-    font-size: 1.2em;
+    font-size: 20px;
     padding: 10px;
     border-bottom: 1px solid #ccc;
     animation: fadeIn 0.5s ease-in-out;
