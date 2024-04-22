@@ -59,7 +59,7 @@ body {
   }
   
   nav a{
-    color: black;
+    color: white;
     font-weight: bold;
     text-decoration: none; 
   }
@@ -128,7 +128,7 @@ a {
   }
   
   .hamburger1 div {
-    background-color: black;
+    background-color: white;
     position: relative;
     width: 40px;
     height: 5px;
@@ -222,8 +222,8 @@ list-style-type: decimal;
     }
     
     header nav ul li a.active {
-      background-color: black;
-      color: #fff;
+      background-color: white;
+      color: black;
       font-weight: bold;
     }
     .mobile {
@@ -284,6 +284,14 @@ list-style-type: decimal;
 }
 .foodname:hover {
   text-decoration: underline;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
  
 @keyframes fadeIn {

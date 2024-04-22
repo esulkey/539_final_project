@@ -21,9 +21,9 @@
       </header>
         <header>
           <section class="p-menu1">
-            <nav id="navbar" class="navigation" role="navigation">
+            <nav id="navbar" class="navigation" role="navigation" aria-label="Page Selection">
               <input id="toggle1" type="checkbox" />
-              <label class="hamburger1" for="toggle1">
+              <label class="hamburger1" for="toggle1" aria-label="Toggle Navigation">
                 <div class="top"></div>
                 <div class="meat"></div>
                 <div class="bottom"></div>
@@ -43,10 +43,12 @@
             <p>Sweet and Savory is your home for dairy-free recipes! Check out our selection of recipes for meals, desserts, and beverages.<br>
                 <p>Recipes including dairy products such as milk, cheese, or butter can be made using a dairy-free product of your choice, unless otherwise specified.<br>
             <p>Browse recipes by sweet or savory, or search by recipe title!</p>
-              <input id="searchbar"
-               onkeyup="search_foodname()"
-               type="text" name="search"
-               placeholder="Search recipes...">
+            <label for="searchbar" class="visually-hidden">Search recipes:</label>
+            <input id="searchbar"
+                   onkeyup="search_foodname()"
+                   type="text"
+                   name="search"
+                   placeholder="Search recipes...">
                <ul id='list'>
                 <li class="foodname"><a href="apple_crisp.html">Apple Crisp</a></li>
                 <li class="foodname"><a href="banana_nut_cookies.html">Banana Nut Cookies</a></li>
